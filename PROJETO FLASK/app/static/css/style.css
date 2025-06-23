@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.titulo {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.projeto {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+.senai {
+    text-align: right;
+    margin-right: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+div p {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    div p {
+        width: 80%;
+    }
+}
