@@ -6,7 +6,13 @@ def homepage():
     nome = "Henrique"
     idade = 17
     interesses = ["Python", "Flask", "JavaScript"]
-    return render_template('index.html', nome=nome, idade=idade, interesses=interesses)
+    
+    contexto = {
+        'nome': nome,
+        'idade': idade,
+        'interesses': interesses
+    }
+    return render_template('index.html', nome=nome, idade=idade, interesses=interesses,contexto=contexto)
 
 @app.route('/sobre/')
 def sobre():
