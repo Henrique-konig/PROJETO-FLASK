@@ -6,9 +6,17 @@ body {
     color: #333;
 }
 
+.sobrenostitulo{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 45px;
+    color: #f1f1f1;
+    background-color: #007bff;
+    
+}
 .titulo {
     background-color: #007bff;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -37,34 +45,21 @@ div p {
     font-size: 18px;
 }
 
+.voltar{
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 @media (max-width: 600px) {
     div p {
         width: 80%;
     }
-}
-
-.sobreNos{
-    color: black;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 30px auto;
-    width: 50%;
-    margin-left: 850px;
-}
-
-.sobreeu{
-    color: black;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    text-decoration: none;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 30px auto;
-    width: 50%;
-    margin-left: 460px;
 }

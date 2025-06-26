@@ -13,7 +13,17 @@
     <h5 class = "senai" >@SenaiSC</h5>
     <div>
         <p>Bem vindo a aula de Flask!!!</p>
-        <a href="{{url_for('sobre')}}"> Link para a nova pagina</a>
+        <a class = "sobreNos" href="{{url_for('sobre')}}"> Link para a nova pagina</a>
+    </div>
+    <div class = "sobreeu">
+        <h1> Nome: {{nome}} </h1>
+        <p> Idade: {{idade}} </p>
+        <h3>Interesses: </h3>
+        <ul>
+            {% for interesse in interesses %}
+                <li>{{ interesse }}</li>
+            {% endfor %}
+        </ul>
     </div>
 </body>
 </html>
